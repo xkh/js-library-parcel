@@ -1,0 +1,25 @@
+{
+  "name": "js-library-parcel",
+  "version": "1.0.0",
+  "description": "基于parcel打包library包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "parcel build src/index.js && git add . && git commit -m deploy && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkh/js-library-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkh/js-library-parcel/issues"
+  },
+  "homepage": "https://github.com/xkh/js-library-parcel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "7.3.1"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["toSay","num","console","log"],"mappings":";AAAA,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAAA,QAAA,WAAA,EAAA,IAAMA,EAAQ,SAACC,GACXC,QAAQC,IAAsBF,kBAAAA,OAAAA,KADlC,QAAA,MAAA","file":"index.map","sourceRoot":"../src","sourcesContent":["const toSay = (num) => {\n    console.log(`hello xkh~ 你输入了${num}`)\n};\n\nexport{\n    toSay\n}"]}
